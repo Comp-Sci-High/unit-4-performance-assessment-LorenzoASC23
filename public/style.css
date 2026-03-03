@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f5f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ff6b35;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1f1f1f;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Featured Recipe Card */
+.featured-recipe {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.featured-recipe h2 {
+    color: #ff6b35;
+    margin-bottom: 10px;
+}
+
+.featured-recipe ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.featured-recipe li {
+    margin-bottom: 6px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #ff6b35;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #e85a2a;
+}
+
+/* General Sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}

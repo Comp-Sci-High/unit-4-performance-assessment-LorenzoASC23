@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>FlavorShare - Recipe Sharing App</title>
+</head>
+<body>
+
+    <header>
+        <h1>FlavorShare</h1>
+        <p>Share Your Favorite Recipes With the World</p>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Browse Recipes</a> |
+        <a href="#">Submit Recipe</a> |
+        <a href="#">Login</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Featured Recipe</h2>
+
+            <article>
+                <h3>Classic Margherita Pizza</h3>
+                <p><strong>Category:</strong> Italian</p>
+
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>Pizza dough</li>
+                    <li>Tomato sauce</li>
+                    <li>Fresh mozzarella</li>
+                    <li>Fresh basil</li>
+                    <li>Olive oil</li>
+                </ul>
+
+                <h4>Instructions</h4>
+                <p>
+                    Spread tomato sauce over the dough. Add mozzarella evenly.
+                    Bake at 475°F for 12 minutes until golden.
+                    Top with basil and drizzle olive oil before serving.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Submit a New Recipe</h2>
+
+            <form>
+                <label for="title">Recipe Title:</label><br>
+                <input type="text" id="title" name="title"><br><br>
+
+                <label for="category">Category:</label><br>
+                <input type="text" id="category" name="category"><br><br>
+
+                <label for="ingredients">Ingredients:</label><br>
+                <textarea id="ingredients" name="ingredients" rows="4" cols="40"></textarea><br><br>
+
+                <label for="instructions">Instructions:</label><br>
+                <textarea id="instructions" name="instructions" rows="4" cols="40"></textarea><br><br>
+
+                <button type="submit">Post Recipe</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2026 FlavorShare | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

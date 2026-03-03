@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlavorShare - Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <header>
+        <h1>FlavorShare</h1>
+        <p>Cook. Share. Inspire.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Browse</a>
+        <a href="#">Submit Recipe</a>
+        <a href="#">Login</a>
+    </nav>
+
+    <main>
+
+        <section class="featured-recipe">
+            <h2>Featured Recipe</h2>
+            <h3> <%= recipes.title</h3>
+            <p><strong>Category:</strong>  <%= categories %></p>
+
+            <h4>Ingredients:</h4>
+            <ul>
+                <% for(let i= 0; i < recipes.ingredients; i++){ %>
+                <li> <%= recipes[0].ingredients[i]</li>
+              <%  } %>
+                
+            </ul>
+
+            <h4>Instructions:</h4>
+            <p>
+                <%= recipes.instructions %>
+        
+            </p>
+
+            <a href="#" class="btn">View Full Recipe</a>
+        </section>
+
+        <section>
+            <h2>Why Join FlavorShare?</h2>
+            <ul>
+                <li>Discover recipes from around the world</li>
+                <li>Share your own cooking creations</li>
+                <li>Rate and review dishes</li>
+                <li>Save your favorite recipes</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 FlavorShare | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
